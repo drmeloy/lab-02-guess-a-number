@@ -1,0 +1,84 @@
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #D7F2BA;
+    padding: 20px 30px;
+    width: 80%;
+    border: 1px solid lightseagreen;
+    border-bottom: 0;
+}
+
+h2 {
+    font-family: 'Lexend Peta', sans-serif;
+    font-size: 24px;
+}
+
+h1 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 6px;
+    font-size: 78px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #f6c0d0;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    text-align: center;
+}
+
+input {
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    font-size: 40px;
+}
+
+button {
+    width: 400px;
+    height: 70px;
+    font-size: 24px;
+}
+
+aside {
+    font-size: 24px;
+}
+
+#guesses-remaining {
+    font-size: 30px;
+}
+
+#guess-hint {
+    font-size: 24px;
+}
+
+#introduction {
+    background: #9CFFFA;
+    width: 80%;
+    padding: 20px 30px;
+    border: 1px solid lightseagreen;
+    border-bottom: 0;
+    font-family: 'Lexend Peta', sans-serif;
+}
+
+#number-input {
+    background: #D7F2BA;
+    width: 80%;
+    padding: 20px 30px;
+    border: 1px solid lightseagreen;
+    font-family: 'Lexend Peta', sans-serif;
+    text-align: center;
+}
