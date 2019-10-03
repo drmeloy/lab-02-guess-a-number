@@ -32,6 +32,7 @@ inputButton.addEventListener('click', () => {
         guessesRemaining -= 1;
     } else if (checkGuess === false){
         guessHint.textContent = 'You must guess a number between 1 and 20!';
+        throw new Error('Unaccetable input');
     } else {
         guessHint.textContent = 'That\'s right!!! You guessed the super secret number! You\'re the best!!!';
         inputButton.setAttribute('disabled', false);
