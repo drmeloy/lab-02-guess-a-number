@@ -23,7 +23,7 @@
             So how's this work?
         </h3>
         <p>
-            In this game, a super secret number has been randomly chosen. The number could be any number between 1 and 20 (including 1 and 20!). In the box below, you will try to guess the number. You'll only have four tries, but don't worry, we'll give you a hint with each guess by telling you if you're higher or lower. <br>Try your luck and see if you can win!!!
+            In this game, a super secret number has been randomly chosen. The number could be any number between 1 and 20 (including 1 and 20!). In the box below, you will try to guess the number. You'll only have four tries, but don't worry, we'll give you a hint with each guess by telling you if you're higher or lower. <br><br>Try your luck and see if you can win!!!
         </p>
     </section>
     <section id="number-input">
@@ -32,7 +32,10 @@
         <br>
         <button id="input-button">Click here to see if you're right!</button>
         <br>
+        <button id="refresh-button" class="hidden">Click here to retry</button>
+        <br>
         <aside>Guesses remaining: <span id="guesses-remaining"></span></aside>
+        <aside id="number-reveal" class="hidden">The actual number was <span id="hidden-number"></span>!</aside>
         <span id="guess-hint"></span>
     </section>
 

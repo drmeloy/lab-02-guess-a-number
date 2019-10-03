@@ -5,7 +5,7 @@ header {
     align-items: center;
     background: #D7F2BA;
     padding: 20px 30px;
-    width: 80%;
+    width: 70%;
     border: 1px solid lightseagreen;
     border-bottom: 0;
 }
@@ -67,7 +67,7 @@ aside {
 
 #introduction {
     background: #9CFFFA;
-    width: 80%;
+    width: 70%;
     padding: 20px 30px;
     border: 1px solid lightseagreen;
     border-bottom: 0;
@@ -76,9 +76,13 @@ aside {
 
 #number-input {
     background: #D7F2BA;
-    width: 80%;
+    width: 70%;
     padding: 20px 30px;
     border: 1px solid lightseagreen;
     font-family: 'Lexend Peta', sans-serif;
     text-align: center;
+}
+
+.hidden {
+    display: none;
 }
