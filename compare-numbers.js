@@ -1,16 +1,5 @@
-// const compareNumbers = (userGuess, hiddenNumber) => {
-//     if (userGuess > hiddenNumber){
-//         return 1;
-//     } else if (userGuess < hiddenNumber){
-//         return -1;
-//     } else if (userGuess === hiddenNumber){
-//         return 0; 
-//     } else if (userGuess > 20 || userGuess < 1 || userGuess === 'e' || userGuess === 'E'){
-//         return false;
-//     }};
-
 const compareNumbers = (userGuess, hiddenNumber) => {
-    if (userGuess > 20 || userGuess < 1 || userGuess === 'e' || userGuess === 'E'){
+    if ((userGuess > 20) || (userGuess < 1) || (userGuess === typeof(string))){
         return false;
     } else if (userGuess < hiddenNumber){
         return -1;
