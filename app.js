@@ -17,7 +17,6 @@ const displayHiddenNumber = document.getElementById('hidden-number');
 const numberReveal = document.getElementById('number-reveal');
 
 const hiddenNumber = Math.floor(Math.random() * 20) + 1;
-// console.log(hiddenNumber);
 
 displayHiddenNumber.textContent = hiddenNumber;
 
